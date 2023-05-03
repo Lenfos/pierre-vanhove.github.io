@@ -1,0 +1,43 @@
+body{
+    background-color: #002233;
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+    --white : #fff;
+    --black : #000;
+    --backgroundColor : #002233;
+    --navColor : #001621;
+}
+
+nav{
+    background-color: var(--navColor);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: var(--white);
+    display: flex;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 32px;
+    overflow: hidden;
+    flex-direction: row;
+}
+
+ul{
+    list-style: none;
+    float: right;
+}
+
+ul li{
+    margin: auto;
+
+}
+
+.bottom_Image{
+    bottom: 0;
+    position: absolute;
+    margin-left: -15px;
+    width: 100%;
+}
