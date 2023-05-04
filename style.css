@@ -86,7 +86,7 @@ ul{
 
 /*-----Photo and Title-----*/
 
-main{
+#mainHome{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -94,7 +94,7 @@ main{
     flex-wrap: wrap;
 }
 
-main img{
+#mainHome img{
     width: 400px;
 }
 
@@ -127,3 +127,75 @@ main img{
     display: flex;
     flex-direction: column;
 }
+
+
+/*------Skills Page------*/
+
+#mainSkill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10rem 5rem;
+}
+
+.skill_card{
+    background: linear-gradient(0deg, rgba(227,76,103,0.69) 0%, rgba(0,118,117,0.19) 100%);
+    border: 1px solid black;
+    box-shadow: 0 7px 4px 0 rgba(255,255,255, 0.25);
+    width: 270px;
+    height: 324px;
+    border-radius: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill_card:hover{
+    translate: 0 -15px;
+    scale: 1.03;
+}
+
+.skill_img{
+    margin-top: 3rem;
+    height: 101px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill_card p{
+    font-family: Roboto-Medium,sans-serif;
+    font-size: 24px
+}
+
+
+/*-------Project page------*/
+
+#mainProject{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#projetDiv{
+    background: linear-gradient(180deg, rgba(99, 242, 289, 0.58) 0%, rgba(0, 204, 142, 1) 100%);
+    border-radius: 25px;
+    height: 120px;
+    width: 90%;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+#projetDiv h3{
+    font-size: 32px;
+    font-family: Roboto-Medium, sans-serif;
+}
+
+#projetDiv img{
+    width: 86px;
+}
+
+
