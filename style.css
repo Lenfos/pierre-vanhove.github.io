@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: Roboto-light;
-    src: url("font/Roboto/Roboto-Regular.ttf");
+    src: url("font/Roboto/Roboto-Light.ttf");
 }
 
 :root{
@@ -177,24 +177,50 @@ ul{
     flex-direction: column;
 }
 
-#projetDiv{
-    background: linear-gradient(180deg, rgba(99, 242, 289, 0.58) 0%, rgba(0, 204, 142, 1) 100%);
-    border-radius: 25px;
-    height: 120px;
-    width: 90%;
-    margin: 4rem auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
-}
-
-#projetDiv h3{
+#mainProject h1{
+    margin: 10rem 0 0 4rem;
     font-size: 32px;
     font-family: Roboto-Medium, sans-serif;
 }
 
-#projetDiv img{
+#mainProject h2{
+    margin: 2rem 0 0 4rem;
+    font-size: 28px;
+    font-family: Roboto-light, sans-serif;
+}
+
+
+#listPoroject{
+    margin: 1rem 0 5rem 0;
+}
+
+.projectDiv{
+    background: linear-gradient(180deg, rgba(99, 242, 289, 0.58) 0%, rgba(0, 204, 142, 1) 100%);
+    border-radius: 25px;
+    height: 120px;
+    width: 90%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.closeDivPrint{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.closeDivPrint h3{
+    font-size: 32px;
+    font-family: Roboto-Medium, sans-serif;
+
+}
+
+.closeDivPrint img{
     width: 86px;
 }
 
