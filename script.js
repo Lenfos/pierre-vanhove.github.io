@@ -1,7 +1,8 @@
 let openDiv = false;
 
 let divToOpen = document.querySelector('.projectDiv');
-divToOpen.addEventListener()
+console.log(divToOpen.id);
+divToOpen.addEventListener("click", showText, false);
 function showText(){
     if (this.onclick === true && openDiv === false){
         openDiv = true;
