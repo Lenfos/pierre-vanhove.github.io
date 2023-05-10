@@ -1,14 +1,6 @@
-let openDiv = false;
+document.getElementById("burgerMenu").click = function (){
+    let ul = document.getElementById("ul");
 
-let divToOpen = document.querySelector('.projectDiv');
-console.log(divToOpen.id);
-divToOpen.addEventListener("click", showText, false);
-function showText(){
-    if (this.onclick === true && openDiv === false){
-        openDiv = true;
-        this.style.overflow = 'visible';
-        this.style.height = 'auto';
-        console.log("click");
-    }
-
+    ul.style.display = 'flex';
+    ul.style.flexDirection = 'column';
 }

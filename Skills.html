@@ -1,21 +1,33 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Pierre Vanhove</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
+        <input type="checkbox" id="nav-check">
         <div id="Home">
           <img alt="Home Icon" src="img/home_icon_white.svg">
           <a class="nav_link" href="home.html">Home</a>
         </div>
-        <ul>
+
+        <div class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+
+        <ul id="ul">
           <li><a class="nav_link" href="#">Compétences</a></li>
           <li><a class="nav_link" href="Projects.html">Projets</a></li>
           <li><a class="nav_link" href="Contact.html">Contact</a></li>
         </ul>
+        <img id="burgerMenu" alt="Menu de Navigation" src="img/menu.svg">
     </nav>
 
     <main id="mainSkill">
