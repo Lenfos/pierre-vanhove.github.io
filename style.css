@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Lemonada", sans-serif;
+    src: url("./Assets/Font/Lemonada-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Dosis", sans-serif;
+    src: url("./Assets/Font/Dosis-VariableFont_wght.ttf");
+}
+
+:root{
+    /*-----Color-----*/
+
+    --aqua-squeeze-50: #f2f9f9;
+    --aqua-squeeze-100: #ddeff0;
+    --aqua-squeeze-200: #bfdfe2;
+    --aqua-squeeze-300: #92c9ce;
+    --aqua-squeeze-400: #5fa9b1;
+    --aqua-squeeze-500: #438e97;
+    --aqua-squeeze-600: #3b747f;
+    --aqua-squeeze-700: #356069;
+    --aqua-squeeze-800: #325058;
+    --aqua-squeeze-900: #2d454c;
+    --aqua-squeeze-950: #1a2c32;
+    --text-color: #1E2020;
+    --gradient-Top-to-Bot : linear-gradient(180deg, #438E96 0%, #DDEFF0 89.06%);
+    --gradient-Bot-to-Top : linear-gradient(180deg, #DDEFF0 14.58%, #438E96 100%);
+    --gradient-600-to-400 : linear-gradient(180deg, #9cb6ddc2 0%, #e7f0f8c2 100%);
+
+}
