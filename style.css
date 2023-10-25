@@ -40,6 +40,8 @@ body{
 
 section{
     height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 /*----------------First View----------------*/
@@ -145,5 +147,19 @@ h1{
 /*----------------Third View----------------*/
 
 #third-view{
-    background-color: var(--gradient-600-to-400);
+    background: var(--gradient-600-to-400);
+}
+
+#third-view h2{
+    line-height: 18px;
+    margin: 0;
+}
+
+#third-view img{
+    position: absolute;
+    width: 100%;
+}
+
+#slider{
+    width: 100%;
 }
