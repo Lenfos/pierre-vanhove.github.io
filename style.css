@@ -11,18 +11,19 @@
 :root{
     /*-----Color-----*/
 
-    --aqua-squeeze-50: #f2f9f9;
-    --aqua-squeeze-100: #ddeff0;
-    --aqua-squeeze-200: #bfdfe2;
-    --aqua-squeeze-300: #92c9ce;
-    --aqua-squeeze-400: #5fa9b1;
-    --aqua-squeeze-500: #438e97;
-    --aqua-squeeze-600: #3b747f;
-    --aqua-squeeze-700: #356069;
-    --aqua-squeeze-800: #325058;
-    --aqua-squeeze-900: #2d454c;
-    --aqua-squeeze-950: #1a2c32;
+    --aqua-50: #f2f9f9;
+    --aqua-100: #ddeff0;
+    --aqua-200: #bfdfe2;
+    --aqua-300: #92c9ce;
+    --aqua-400: #5fa9b1;
+    --aqua-500: #438e97;
+    --aqua-600: #3b747f;
+    --aqua-700: #356069;
+    --aqua-800: #325058;
+    --aqua-900: #2d454c;
+    --aqua-950: #1a2c32;
     --text-color: #1E2020;
+
     --gradient-Top-to-Bot : linear-gradient(180deg, #438E96 0%, #DDEFF0 89.06%);
     --gradient-Bot-to-Top : linear-gradient(180deg, #DDEFF0 14.58%, #438E96 100%);
     --gradient-600-to-400 : linear-gradient(180deg, #9cb6ddc2 0%, #e7f0f8c2 100%);
@@ -56,7 +57,7 @@ nav{
     display: flex;
     justify-content: right;
     padding: .3em 3% 0 0;
-    height: 10%;
+    height: 10vh;
 }
 
 ul{
@@ -76,23 +77,35 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90%;
+    height: 90vh;
+
 }
 
 #title img{
-    height: 45%;
+    height: 70%;
 }
 
 #name{
-    border: 1px solid black;
     padding: 0;
-    margin: 0;
+    margin-top: -10em;
+    line-height: 0;
 }
 
-#name h1{
+h1{
     font-family: var(--title-font);
     color: var(--text-color);
-    font-size: 72px;
+    font-size: 10em;
     font-weight: 500;
     line-height: 1em;
 }
+
+#name p{
+    font-family: var(--text-font);
+    color: var(--text-color);
+    font-size: 6em;
+}
+
+
+/*----------------Second View----------------*/
+
+
