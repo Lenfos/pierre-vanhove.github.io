@@ -5,15 +5,19 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./Assets/img/Logo/Logo.svg">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="carroussel.js"></script>
+    <script src="scroll.js"></script>
+    <script src="navScroll.js"></script>
 
 </head>
 <body>
-    <section id="first-view">
+    <section class="view" id="first-view">
         <header>
             <nav>
                 <ul>
-                    <li>Presentation</li>
-                    <li>Projects</li>
+                    <li><a href="#second-view">Presentation</a></li>
+                    <li><a href="#third-view">Projects</a></li>
                     <li>Skills</li>
                     <li>Contact</li>
                 </ul>
@@ -28,7 +32,7 @@
         </div>
 
     </section>
-    <section id="second-view">
+    <section class="view" id="second-view">
         <img src="./Assets/img/Icon/Developer.svg" alt="Developper Icon" id="developperIcon">
         <div id="second-view-text">
             <h2>Student Developer</h2>
@@ -36,11 +40,84 @@
                 France, and I'm also a freelance web, app, and video game Developer</p>
         </div>
     </section>
-    <section id="third-view">
+    <section class="view" id="third-view">
         <h2>Projects</h2>
-        <div id="slider">
-
-        </div>
+        <div class="slider">
+                <ul>
+                    <li>
+                        <div class="cardProject">
+                            <img src="./Assets/img/LogoProject/Learn2Switch.png" alt="">
+                            <h3>Finder</h3>
+                            <div class="buttonCardProject">
+                                <p>Learn More</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cardProject">
+                            <img src="./Assets/img/LogoProject/Learn2Switch.png" alt="">
+                            <h3>Learn2Switch</h3>
+                            <div class="buttonCardProject">
+                                <p>Learn More</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cardProject">
+                            <img src="./Assets/img/LogoProject/NextEarth.png" alt="">
+                            <h3>Next Earth</h3>
+                            <div class="buttonCardProject">
+                                <p>Learn More</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cardProject">
+                            <img src="./Assets/img/LogoProject/NextEarth.png" alt="">
+                            <h3>Next Earth</h3>
+                            <div class="buttonCardProject">
+                                <p>Learn More</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cardProject">
+                            <img src="./Assets/img/LogoProject/NextEarth.png" alt="">
+                            <h3>Next Earth</h3>
+                            <div class="buttonCardProject">
+                                <p>Learn More</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cardProject">
+                            <img src="./Assets/img/LogoProject/NextEarth.png" alt="">
+                            <h3>Next Earth</h3>
+                            <div class="buttonCardProject">
+                                <p>Learn More</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cardProject">
+                            <img src="./Assets/img/LogoProject/NextEarth.png" alt="">
+                            <h3>Next Earth</h3>
+                            <div class="buttonCardProject">
+                                <p>Learn More</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cardProject">
+                            <img src="./Assets/img/LogoProject/NextEarth.png" alt="">
+                            <h3>Next Earth</h3>
+                            <div class="buttonCardProject">
+                                <p>Learn More</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         <img src="./Assets/img/Icon/Waves.svg" alt="">
     </section>
 </body>
