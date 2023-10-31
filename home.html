@@ -10,7 +10,8 @@
     <script src="scroll.js"></script>
     <script src="navScroll.js"></script>
     <script src="skillCard.js"></script>
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="EmailSender.js"></script>
 </head>
 <body>
     <section class="view" id="first-view">
@@ -19,8 +20,8 @@
                 <ul>
                     <li><a href="#second-view">Presentation</a></li>
                     <li><a href="#third-view">Projects</a></li>
-                    <li>Skills</li>
-                    <li>Contact</li>
+                    <li><a href="#fourth-view">Skills</a></li>
+                    <li><a href="#fifth-view">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -152,8 +153,52 @@
                 </div>
             </div>
         </div>
-        </div>
 
+    </section>
+    <section class="view" id="fifth-view">
+        <div id="cardPerso">
+            <img id="photo" src="./Assets/img/PhotoMoi.jpg" alt="Photo Pierre Vanhove">
+            <h3>Pierre Vanhove</h3>
+            <h4>Developer</h4>
+            <div id="BlackBarre"></div>
+            <div id="Social">
+                <a class="socialLink" href="https://linkedin.com/in/pierre-vanhove" target="_blank">
+                    <img src="./Assets/img/Icon/Linkedin.svg" alt="Link to Linkedin Profil">
+                </a>
+                <a class="socialLink" href="https://github.com/Lenfos" target="_blank">
+                    <img src="./Assets/img/Icon/Github.svg" alt="Link to Github Profil">
+                </a>
+                <a class="socialLink" href="https://twitter.com/PVanhove_" target="_blank">
+                    <img src="./Assets/img/Icon/Twitter.svg" alt="Link to Twitter Profil">
+                </a>
+                <a class="socialLink" href=" https://fr.fiverr.com/lenfos" target="_blank">
+                    <img src="./Assets/img/Icon/Fiverr.svg" alt="Link to Fiverr Profil">
+                </a>
+            </div>
+        </div>
+        <div id="contact">
+            <h3>Contact Me</h3>
+            <form onsubmit="sendEmail(); reset(); return false;">
+                <div class="inputDiv">
+                    <label for="Source" id="sourceLabel">Source</label>
+                    <input type="email" id="Source" name="Mail Source" placeholder="yourmail@example.com" required/>
+
+                </div>
+
+                <div class="inputDiv">
+                    <label for="object" id="objectLabel">Object</label>
+                    <input type="text" id="object" name="Object" placeholder="Contact Subject example" required/>
+
+                </div>
+
+                <div class="inputDiv">
+                    <label for="message" id="messageLabel">Message</label>
+                    <textarea id="message" placeholder="Your message here" rows="4" required></textarea>
+                </div>
+
+                <input type="submit" id="submit" value="Send">
+            </form>
+        </div>
     </section>
 </body>
 </html>
