@@ -40,6 +40,8 @@ body{
     margin: 0;
     font-size: 16px;
     background: var(--aqua-100);
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 section{
@@ -57,8 +59,6 @@ a, a:hover, a:after{
 
 body::-webkit-scrollbar{
     width: 0.5vw;
-    float: right;
-    margin: 10px 10px 10px 0;
 }
 
 body::-webkit-scrollbar-thumb{
@@ -535,5 +535,70 @@ label{
     height: 8vh;
     border-radius: 1rem;
     margin-left: 70%;
+}
+
+
+
+/*----------------Responsive----------------*/
+
+@media screen and (max-width:  576px){
+
+
+    section{
+        width: 100%;
+        height: 60vh;
+    }
+
+    #first-view{
+        justify-content: center;
+        align-items: center;
+    }
+
+    #title{
+        height: auto;
+    }
+
+    #title img{
+        height: 30vh;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #second-view{
+        justify-content: center;
+        align-items: center;
+        padding: 3%;
+    }
+
+    #second-view img{
+        height: 10vh;
+        border: 1px solid black;
+    }
+
+    #second-view-text{
+        border: 1px solid black;
+    }
+
+
+    #fifth-view{
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+    }
+
+    #cardPerso{
+        height: auto;
+        padding: 5% 6%;
+    }
+
+    #photo{
+        height: 10vh;
+    }
+
+    #contact{
+        height: auto;
+    }
 }
 
