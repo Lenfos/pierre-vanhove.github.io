@@ -91,6 +91,8 @@ nav{
     justify-content: right;
     padding: .5em 3% 0 0;
     height: 10vh;
+    position: relative;
+    z-index: 100;
 }
 
 ul{
@@ -104,7 +106,19 @@ li{
     font-weight: 500;
     font-size: 2vw;
     color: var(--text-color);
+    cursor: pointer;
 }
+
+.navLink {
+    background: linear-gradient(currentColor, currentColor) bottom / 0 .1em no-repeat;
+    transition: 0.5s background-size;
+}
+
+.navLink:hover {
+    background-size: 100% .1em;
+}
+
+
 
 #title{
     display: flex;
@@ -122,12 +136,13 @@ li{
     padding: 0;
     margin-top: -10em;
     line-height: 0;
+    justify-content: center;
 }
 
 h1{
     font-family: var(--title-font);
     color: var(--text-color);
-    font-size: 9vw;
+    font-size: 7vw;
     font-weight: 500;
     line-height: 1em;
 }
@@ -157,12 +172,13 @@ h1{
     width: 30%;
     margin: 7%;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #second-view-text h2{
     font-family: var(--text-font);
     color: var(--text-color);
-    font-size: 6vw;
+    font-size: 5vw;
     font-weight: 500;
     line-height: 5vw;
 }
