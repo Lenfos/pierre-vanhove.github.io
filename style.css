@@ -104,7 +104,7 @@ ul{
 li{
     font-family: var(--text-font);
     font-weight: 500;
-    font-size: 2vw;
+    font-size: 1.7vw;
     color: var(--text-color);
     cursor: pointer;
 }
@@ -129,12 +129,12 @@ li{
 }
 
 #title img{
-    height: 70vh;
+    height: 60vh;
 }
 
 #name{
     padding: 0;
-    margin-top: -10em;
+    margin-top: -8em;
     line-height: 0;
     justify-content: center;
 }
@@ -142,7 +142,7 @@ li{
 h1{
     font-family: var(--title-font);
     color: var(--text-color);
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: 500;
     line-height: 1em;
 }
@@ -150,7 +150,7 @@ h1{
 #name p{
     font-family: var(--text-font);
     color: var(--text-color);
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 
@@ -178,7 +178,7 @@ h1{
 #second-view-text h2{
     font-family: var(--text-font);
     color: var(--text-color);
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: 500;
     line-height: 5vw;
 }
@@ -199,7 +199,7 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4em 0 0 0;
+    padding: 3em 0 0 0;
 }
 
 #third-view h2{
@@ -336,8 +336,8 @@ h1{
     text-align: center;
     font-family: var(--text-font);
     color: var(--aqua-50);
-    font-size: 3vw;
-    font-weight: 600;
+    font-size: 2.7vw;
+    font-weight: 500;
 }
 
 .skillCardClose img{
@@ -352,6 +352,12 @@ h1{
     font-family: var(--text-font);
     font-weight: 400;
     font-size: 1.5vw;
+    line-height: 2vw;
+    text-indent: 2em;
+}
+
+span{
+    font-weight: bold;
 }
 
 .active{
@@ -369,6 +375,7 @@ h1{
         writing-mode: vertical-rl;
         text-align: center;
         transform: rotateZ(180deg);
+        font-size: 2.5vw;
     }
 
     .skillCardClose img{
@@ -377,8 +384,10 @@ h1{
 
     .skillCardText{
         display: flex;
-        padding: 1em 1em 1em 0;
+        flex-direction: column;
+        padding: 1em 2em 1em 0;
         border-radius: 0 50px 50px 0;
+        row-gap: 0;
     }
 }
 
@@ -433,7 +442,7 @@ h1{
 
 #cardPerso h3{
     font-family: var(--title-font);
-    font-size: 3.5vw;
+    font-size: 3vw;
     color: var(--aqua-950);
     font-weight: 400;
     text-align: center;
@@ -445,7 +454,7 @@ h1{
     font-family: var(--text-font);
     font-weight: 300;
     color: var(--aqua-950);
-    font-size: 2.5vw;
+    font-size: 2vw;
     line-height: 42px;
     margin: 0;
 }
@@ -486,7 +495,7 @@ h1{
     font-weight: 500;
     font-family: var(--text-font);
     color: var(--aqua-950);
-    font-size: 2.8vw;
+    font-size: 2.5vw;
     border-bottom: solid 0.5vw var(--aqua-950);
     margin-top: -1vh;
 }
@@ -566,6 +575,10 @@ label{
 
     #title img{
         height: 20vh;
+    }
+
+    #name{
+        margin: 0;
     }
 
     h1{
@@ -707,6 +720,10 @@ label{
 
     #photo{
         height: 10vh;
+    }
+
+    .socialLink img{
+        transform: scale(1.5);
     }
 
     #contact{
