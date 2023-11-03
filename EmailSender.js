@@ -15,9 +15,17 @@ function sendEmail(){
             From : "vanhove.pierre@proton.me",
             To: document.getElementById("Source").value,
             Subject : "Contact Form Confirmation",
-            Body: "Your message to Pierre Vanhove has been successfully send" +
-                "<br> Content of your message : " + document.getElementById("message").value
+            Body: "<html lang='en'>" +
+                "<body style='background: #92c9ce; height: 800px; padding: 5%;'>" +
+                "<div style='background: #ddeff0; display: flex; flex-direction: column; justify-content: center; align-items: center;'>" +
+                "<img src='https://lenfos.github.io/pierre-vanhove.github.io/Assets/img/Logo/Logo.png' alt='Pierre Vanhove Logo' style='width: 100%'>" +
+                "<h1>Contact Form Confirmation</h1>" +
+                "<h2>Your message to Pierre Vanhove has been successfully send</h2>" +
+                "</div>" +
+                "</body>" +
+                "</html>",
 
+            isHtml : true
         }).then(
             message => ""
         )
