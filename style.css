@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Lemonada", sans-serif;
-    src: url("./Assets/Font/Lemonada-VariableFont_wght.ttf");
+    src: url("./Assets/Font/Lemonada-VariableFont_wght.woff2");
 }
 
 @font-face {
     font-family: "Dosis", sans-serif;
-    src: url("./Assets/Font/Dosis-VariableFont_wght.ttf");
+    src: url("./Assets/Font/Dosis-VariableFont_wght.woff2");
 }
 
 :root{
@@ -41,7 +41,7 @@ body{
     font-size: 16px;
     background: var(--aqua-100);
     overflow: hidden;
-    overflow-y: scroll;
+    overflow-y: scroll;;
 }
 
 section{
@@ -282,6 +282,60 @@ h1{
     margin: 0;
 }
 
+/*----------------Project Detail-------------*/
+
+#ProjectDetail{
+    position: absolute;
+    z-index: 99;
+    width: 45vw;
+    height: 80vh;
+    background: var(--aqua-100);
+    border: .5vw solid var(--aqua-700);
+    -webkit-box-shadow:0 0 124px 36px rgba(146,201,206,0.81);
+    -moz-box-shadow: 0 0 124px 36px rgba(146,201,206,0.81);
+    box-shadow: 0 0 124px 36px rgba(146,201,206,0.81);
+    border-radius: 20px;
+    display: none;
+}
+
+#inlineProjectDetail{
+    display: flex;
+    margin: 0;
+    height: 15%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#projectTitle{
+    height: auto !important;
+    font-family: var(--text-font);
+    font-weight: 500;
+    color: var(--text-color);
+    font-size: 4vw !important;
+    margin-left: 5% !important;
+}
+
+#close{
+    width: 2vw !important;
+    margin-right: 5%;
+}
+
+
+#textProjectDetail{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+#textProjectDetail p{
+    font-family: var(--text-font);
+    font-size: 2vw;
+    font-weight: 300;
+    margin: 0;
+    text-indent: 1vw;
+}
 
 /*----------------Fourth View----------------*/
 
