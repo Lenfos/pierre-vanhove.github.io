@@ -42,6 +42,7 @@ body{
     background: var(--aqua-100);
     overflow: hidden;
     overflow-y: scroll;;
+    font-family: var(--text-font);
 }
 
 section{
