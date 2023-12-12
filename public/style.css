@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Lemonada", sans-serif;
-    src: url("../Assets/Font/Lemonada-VariableFont_wght.woff2");
+    src: url("Assets/Font/Lemonada-VariableFont_wght.woff2");
 }
 
 @font-face {
     font-family: "Dosis", sans-serif;
-    src: url("../Assets/Font/Dosis-VariableFont_wght.woff2");
+    src: url("Assets/Font/Dosis-VariableFont_wght.woff2");
 }
 
 :root{
