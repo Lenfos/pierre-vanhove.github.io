@@ -1,4 +1,4 @@
-<h3 class="projectTextTitle">zeldaGame</h3>
+<h2 class="projectTextTitle">Zelda Game</h2>
 
 <p class="ProjectTextParagraph">As part of a group of four students, I actively contributed to the
 development of a game in C# that was inspired by the style of the first Zelda. This collaboration was

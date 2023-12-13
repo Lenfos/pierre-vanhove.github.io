@@ -1,4 +1,4 @@
-<h3 class="projectTextTitle">ScorBut</h3>
+<h2 class="projectTextTitle">ScorBUT</h2>
 
 <p class="ProjectTextParagraph">ScorBUT is a collaborative project that I took part in with three other
 students as part of my studies. It's a website with an API developed in C#, with the aim of awarding

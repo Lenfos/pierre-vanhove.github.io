@@ -1,4 +1,4 @@
-<h3 class="projectTextTitle">Unity</h3>
+<h2 class="projectTextTitle">Unity</h2>
 
 <p class="ProjectTextParagraph"> My journey with Unity, which I'm currently exploring as part of my
 apprenticeship via Fiverr, is an exciting dive into the world of game creation. As a dedicated learner,
