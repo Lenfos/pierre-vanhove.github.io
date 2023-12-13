@@ -26,6 +26,7 @@ $(document).ready(function(){
         $('body').css("overflow-y", "initial");
         $("section").css("filter", "none");
         $("#textProjectDetail").empty();
+        window.ScrollDisabled = false;
         interval = setInterval(Interval, initalRotationSpeed);
     });
 
@@ -39,6 +40,7 @@ $(document).ready(function(){
         $('body').css("overflow-y", "hidden");
         $("section").css("filter", "blur(10px)");
         let id = this.getAttribute('id');
+        window.ScrollDisabled = true;
         $("#textProjectDetail").load(`Assets/TextProject/${id}.txt`);
         console.log(`${id}.txt`);
         clearInterval(interval);

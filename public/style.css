@@ -294,8 +294,8 @@ h1{
 #ProjectDetail{
     position: absolute;
     z-index: 99;
-    width: 45vw;
-    height: 80vh;
+    width: 700px;
+    height: 450px;
     background: var(--aqua-100);
     border: .5vw solid var(--aqua-700);
     -webkit-box-shadow:0 0 124px 36px rgba(146,201,206,0.81);

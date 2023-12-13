@@ -1,7 +1,14 @@
+window.ScrollDisabled = false;
+
 $(document).ready(function () {
     let sections = $('.view');
     let currentSectionIndex = 0;
     let isScrolling = false;
+
+    if (!window.ScrollDisabled){
+        scrollToSection(currentSectionIndex)
+    }
+
 
     function scrollToSection(index) {
         if (index < 0 || index >= sections.length) {
@@ -16,19 +23,21 @@ $(document).ready(function () {
         }, 1000); // Durée de l'animation en millisecondes (ajustez selon vos préférences)
     }
 
-    scrollToSection(currentSectionIndex);
+    if (!window.ScrollDisabled)
+        scrollToSection(currentSectionIndex);
+
 
     $(window).on('wheel', function (e) {
-        if (isScrolling) {
+        if (isScrolling && !window.ScrollDisabled) {
             e.preventDefault();
             return;
         }
 
         isScrolling = true;
 
-        if (e.originalEvent.deltaY > 0) {
+        if (e.originalEvent.deltaY > 0 && !window.ScrollDisabled) {
             scrollToSection(currentSectionIndex + 1);
-        } else if (e.originalEvent.deltaY < 0) {
+        } else if (e.originalEvent.deltaY < 0 && !window.ScrollDisabled) {
             scrollToSection(currentSectionIndex - 1);
         }
 
