@@ -294,8 +294,8 @@ h1{
 #ProjectDetail{
     position: absolute;
     z-index: 99;
-    width: 700px;
-    height: 450px;
+    width: 50vw;
+    height: 70vh;
     background: var(--aqua-100);
     border: .5vw solid var(--aqua-700);
     -webkit-box-shadow:0 0 124px 36px rgba(146,201,206,0.81);
@@ -355,7 +355,7 @@ h1{
     gap: 3vh;
 }
 
-#textProjectDetail h2{
+#textProjectDetail h3{
     font-size: 3vw;
     font-weight: normal;
 }
@@ -732,6 +732,29 @@ label{
 
     .buttonCardProject{
         font-size: 4vw;
+    }
+
+    #ProjectDetail{
+        width: 90%;
+        padding-bottom: 1rem;
+    }
+
+    #close{
+        width: 20px !important;
+    }
+
+    #textProjectDetail h2{
+        font-size: 2rem;
+    }
+
+    #textProjectDetail{
+        margin-top: -3rem;
+        padding: 0 1.5rem;
+    }
+
+    #textProjectDetail p{
+        flex-wrap: wrap;
+        font-size: 1rem;
     }
 
     #fourth-view{
