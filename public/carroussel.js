@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    const initalRotationSpeed = 4000;
+    const initalRotationSpeed = 5000;
     const windowHeight = $(window).height();
     let card = $('.cardProject');
     let width = card.outerWidth(true);
