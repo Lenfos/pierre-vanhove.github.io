@@ -1,0 +1,17 @@
+<h3 class="projectTextTitle">zeldaGame</h3>
+
+<p class="ProjectTextParagraph">As part of a group of four students, I actively contributed to the
+development of a game in C# that was inspired by the style of the first Zelda. This collaboration was
+carried out as part of my studies, where we set about creating a captivating game world. My role in the
+team involved programming in C#, designing gameplay features and coordinating with group members to
+ensure a seamless experience.</p>
+
+<p class="ProjectTextParagraph">The game we created is notable for its homage to the famous first Zelda,
+with elements of exploration, puzzle solving and engaging combat. Using C# as the main programming
+language, I helped implement the game mechanics, interaction management and overall balancing to
+deliver an immersive experience for players.</p>
+
+<p class="ProjectTextParagraph">This project, developed as part of a team, represents a significant
+milestone in my educational career. It demonstrates my ability to work effectively in a group, to use
+C# to create complex game functionalities, and to contribute to the realisation of a concrete project
+in the field of video game development.</p>

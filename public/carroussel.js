@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    const initalRotationSpeed = 3500;
+    const initalRotationSpeed = 4000;
     const windowHeight = $(window).height();
     let card = $('.cardProject');
     let width = card.outerWidth(true);
@@ -25,6 +25,7 @@ $(document).ready(function(){
         detail.css('display', "none");
         $('body').css("overflow-y", "initial");
         $("section").css("filter", "none");
+        $("#textProjectDetail").empty();
         interval = setInterval(Interval, initalRotationSpeed);
     });
 
@@ -39,6 +40,7 @@ $(document).ready(function(){
         $("section").css("filter", "blur(10px)");
         let id = this.getAttribute('id');
         $("#textProjectDetail").load(`Assets/TextProject/${id}.txt`);
+        console.log(`${id}.txt`);
         clearInterval(interval);
     });
 })

@@ -1,0 +1,18 @@
+<h3 class="projectTextTitle">Unity</h3>
+
+<p class="ProjectTextParagraph"> My journey with Unity, which I'm currently exploring as part of my
+apprenticeship via Fiverr, is an exciting dive into the world of game creation. As a dedicated learner,
+I'm familiarising myself with the fundamental aspects of Unity to develop my skills in game design.
+Although I don't work directly on the software itself, my efforts are focused on learning and practically
+applying the concepts to bring a unique game project to life.</p>
+
+<p class="ProjectTextParagraph">The heart of my experience with Unity lies in the development of a game
+in progress, a project that takes shape as I learn. Currently unnamed, this game represents a field of
+experimentation where I apply my newly acquired knowledge. My exploration of Unity includes creating
+gameplay elements, solving problems and optimising to provide an immersive experience for future players.</p>
+
+<p class="ProjectTextParagraph">My commitment to learning Unity and developing this game is a testament
+to my passion for interactive design. It's an important stage in my career, where every line of code
+written and every concept mastered contributes to the development of a promising project. My aim is to
+turn this learning phase into a concrete realisation, with the ambition of creating a game that will
+captivate players while showcasing my budding skills in game development with Unity.</p>

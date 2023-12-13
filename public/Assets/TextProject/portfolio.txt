@@ -1,0 +1,16 @@
+<h3 class="projectTextTitle">Portfolio</h3>
+
+<p class="ProjectTextParagraph">The design of my portfolio, also produced via Fiverr, represents a meticulous approach to presenting
+my skills and achievements in a captivating way. As lead designer, I've shaped every aspect of the
+portfolio to reflect my diverse expertise. The clean and intuitive interface offers fluid navigation,
+allowing visitors to efficiently discover my projects, skills and experience.</p>
+
+<p class="ProjectTextParagraph">Each section of the portfolio is meticulously organised to highlight my key contributions. Concise,
+punchy descriptions of each project highlight my design, writing and project management skills. Thanks
+to the clean layout, visitors can quickly grasp my career path, reinforcing a positive first impression.</p>
+
+<p class="ProjectTextParagraph">Ultimately, this portfolio embodies my commitment to professional excellence and creativity. It
+serves not only as a showcase for my skills, but also as an invitation to explore the various facets
+of my work. The thoughtful design and informative yet visually appealing approach make my portfolio an
+effective tool for showcasing my achievements and attracting the attention of visitors and potential
+collaborators.</p>

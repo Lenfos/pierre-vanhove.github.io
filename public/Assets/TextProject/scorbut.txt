@@ -1,0 +1,18 @@
+<h3 class="projectTextTitle">ScorBut</h3>
+
+<p class="ProjectTextParagraph">ScorBUT is a collaborative project that I took part in with three other
+students as part of my studies. It's a website with an API developed in C#, with the aim of awarding
+trophies to students in various fields such as education, entertainment and many others. My role in the
+team included designing and implementing the API in C#, as well as contributing to the overall vision
+of the site.</p>
+
+<p class="ProjectTextParagraph">This innovative project is based on the creation of an interactive
+platform where students can be recognised and rewarded for their achievements in a variety of fields.
+Using the C# API, we were able to put in place an effective system for awarding trophies, fostering a
+competitive and stimulating environment. My involvement also included coordinating with team members to
+ensure smooth integration between the front-end of the site and the API.</p>
+
+<p class="ProjectTextParagraph">ScorBUT is a testament to my ability to collaborate in a complex team
+development environment, while demonstrating my mastery of C# to create a functional API. This project
+represents not only a significant achievement in the field of web development, but also an innovative
+initiative to showcase student achievements through an interactive and engaging platform.</p>
