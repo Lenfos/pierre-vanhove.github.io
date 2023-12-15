@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Assets/img/Logo/Logo.svg">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="carroussel.js"></script>
+    <script src="scroll.js"></script>
+    <script src="navScroll.js"></script>
+    <script src="skillCard.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="EmailSender.js"></script>
+    <script src="projectCard.js"></script>
+</head>
+<body>
+    <section class="view" id="first-view">
+        <header>
+            <nav>
+                <ul>
+                    <li><a class="navLink" href="#second-view">Présentation</a></li>
+                    <li><a class="navLink" href="#third-view">Projets</a></li>
+                    <li><a class="navLink" href="#fourth-view">Skills</a></li>
+                    <li><a class="navLink" href="#fifth-view">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="title">
+            <img src="Assets/img/Logo/Logo.svg" alt="Pierre Vanhove's Logo">
+            <div id="name">
+                <h1>Pierre <br> VANHOVE</h1>
+                <p id="subtitle">Développeur</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="view" id="second-view">
+        <img src="Assets/img/Icon/Developer.svg" alt="Developper Icon" id="developperIcon">
+        <div id="second-view-text">
+            <h2>Étudiant développeur</h2>
+            <p>Je suis actuellement en 2ème année à l'université d'informatique de Dijon, France, et
+                je suis également un développeur indépendant de sites web, d'applications et de jeux
+                vidéo.</p>
+        </div>
+    </section>
+    <section class="view" id="third-view">
+        <h2>Projects</h2>
+        <div class="slider">
+                <ul>
+                    <li>
+                        <div class="cardProject">
+                            <div class="image-cardProject-container">
+                                <img src="Assets/img/LogoProject/unity.png" alt="">
+                            </div>
+                            <h3>Unity</h3>
+                            <div id="unity" class="buttonCardProject">
+                                <p>En savoir plus</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cardProject">
+                            <div class="image-cardProject-container">
+                                <img src="Assets/img/LogoProject/Learn2Switch.png" alt="">
+                            </div>
+                            <h3>Learn2Switch</h3>
+                            <div id="learn2switch" class="buttonCardProject">
+                                <p>En savoir plus</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cardProject">
+                            <div class="image-cardProject-container">
+                                <img src="Assets/img/LogoProject/NextEarth.png" alt="">
+                            </div>
+                            <h3>Next Earth</h3>
+                            <div id="nextearth" class="buttonCardProject">
+                                <p>En savoir plus</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cardProject">
+                            <div class="image-cardProject-container">
+                                <img src="Assets/img/LogoProject/scorbut.jpg" alt="">
+                            </div>
+                            <h3>ScorBUT</h3>
+                            <div id="scorbut" class="buttonCardProject">
+                                <p>En savoir plus</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cardProject">
+                            <div class="image-cardProject-container">
+                                <img src="Assets/img/Logo/Logo.png" alt="">
+                            </div>
+                            <h3>Portfolio</h3>
+                            <div id="portfolio" class="buttonCardProject">
+                                <p>En savoir plus</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cardProject">
+                            <div class="image-cardProject-container">
+                                <img src="Assets/img/LogoProject/ZeldaGame.png" alt="">
+                            </div>
+                            <h3>Zelda Game</h3>
+                            <div id="zeldagame" class="buttonCardProject">
+                                <p>En savoir plus</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        <img src="Assets/img/Icon/Waves.svg" alt="">
+    </section>
+    <section class="view" id="fourth-view">
+        <h2>Skills</h2>
+        <div id="skillCardContainer">
+            <div class="skillCard ">
+                <div class="skillCardClose">
+                    <h3>Développement Web</h3>
+                    <img src="Assets/img/Icon/Chevron-Right.svg" alt="Open Card">
+                </div>
+                <div class="skillCardText">
+                    <p>En tant que développeur web, j'ai de l'expérience dans la création de sites web esthétiques et fonctionnels.
+                         Ma maîtrise de <span>HTML</span>, <span>CSS</span> et <span>JavaScript</span>, ainsi que la librairie <span>jQuery</span>, me permet de concevoir des interfaces simples et interactive.
+                        En ce qui concerne le Back-End, je suis compétent avec <span>PHP</span> pour développer des serveurs web robustes et dans la gestion de bases de données avec <span>MySQL</span> et <span>Oracle Pl/SQL</span> pour
+                         les applications d'entreprises. </p>
+                    <p>De plus, je peux créer des API performantes avec <span>C#</span> pour permettre une communication efficace entre les différentes parties de votre application web.</p>
+                </div>
+            </div>
+            <div class="skillCard ">
+                <div class="skillCardClose">
+                    <h3>Développement d'applications</h3>
+                    <img src="Assets/img/Icon/Chevron-Right.svg" alt="Open Card">
+                </div>
+                <div class="skillCardText">
+                    <p>En ce qui concerne le développement d'applications, je suis spécialisé dans la programmation en <span>C#</span>, qui me permet de concevoir des applications de bureau robustes et intuitives. Je suis également compétent en <span>Python</span>,
+                        qui me permet de de créer des applications polyvalentes et d'automatiser des tâches.</p>
+
+                    <p>En outre, je peux intégrer les mêmes bases de données que celles utilisées pour
+                        le web, notamment <span>MySQL</span> et <span>Oracle Pl/SQL</span>, assurer
+                        assurer la cohérence de la gestion des données entre les deux environnements.
+                        Mon expérience dans ces domaines domaines me permet de répondre efficacement
+                        et professionnellement aux besoins de vos projets de développement
+                        d'applications de manière efficace et professionnelle.</p>
+                </div>
+            </div>
+            <div class="skillCard ">
+                <div class="skillCardClose">
+                    <h3>Développement de jeux vidéos</h3>
+                    <img src="Assets/img/Icon/Chevron-Right.svg" alt="Open Card">
+                </div>
+                <div class="skillCardText">
+                <p>En tant que développeur de jeux vidéo spécialisé dans <span>Unity</span>, Je possède
+                    une solide expertise dans la création d'expériences interactives captivantes. Mon expérience en <span>C#</span>
+                    me permettent de donner vie à des des mondes virtuels riches en fonctionnalités, que ce soit
+                    pour de jeux <span>2D</span> ou <span>3D</span>. Grâce à ma compréhension
+                    approfondie de la conception de jeux, j'ai travaillé sur un certain nombre de
+                    projets de jeux, en concevant des mécanismes de jeu attrayants et des scénarios
+                    captivants.</p>
+
+                <p>En plus de mes compétences en matière de développement, j'ai appris les bases de
+                    la modélisation 3D à l'aide de <span>Blender</span>, qui me permet de créer des actifs et
+                    des environnements pour mes projets. Mon expérience dans le développement de jeux vidéo
+                    garantit des produits finaux divertissants et immersifs, prêts à captiver les
+                    joueurs du monde entier.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="view" id="fifth-view">
+        <div id="cardPerso">
+            <img id="photo" src="Assets/img/PhotoMoi.jpg" alt="Photo Pierre Vanhove">
+            <h3>Pierre Vanhove</h3>
+            <h4>Développeur</h4>
+            <div id="BlackBarre"></div>
+            <div id="Social">
+                <a class="socialLink" href="https://linkedin.com/in/pierre-vanhove" target="_blank">
+                    <img src="Assets/img/Icon/Linkedin.svg" alt="Link to Linkedin Profil">
+                </a>
+                <a class="socialLink" href="https://github.com/Lenfos" target="_blank">
+                    <img src="Assets/img/Icon/Github.svg" alt="Link to Github Profil">
+                </a>
+                <a class="socialLink" href="https://twitter.com/PVanhove_" target="_blank">
+                    <img src="Assets/img/Icon/Twitter.svg" alt="Link to Twitter Profil">
+                </a>
+                <a class="socialLink" href=" https://fr.fiverr.com/lenfos" target="_blank">
+                    <img src="Assets/img/Icon/Fiverr.svg" alt="Link to Fiverr Profil">
+                </a>
+            </div>
+        </div>
+        <div id="contact">
+            <h3>Contactez moi</h3>
+            <form onsubmit="sendEmail(); reset(); return false;">
+                <div class="inputDiv">
+                    <label for="Source" id="sourceLabel">Source</label>
+                    <input type="email" id="Source" name="Mail Source" placeholder="votremail@example.com" required/>
+
+                </div>
+
+                <div class="inputDiv">
+                    <label for="object" id="objectLabel">Objet</label>
+                    <input type="text" id="object" name="Object" placeholder="Example d'objet de contact" required/>
+
+                </div>
+
+                <div class="inputDiv">
+                    <label for="message" id="messageLabel">Message</label>
+                    <textarea id="message" placeholder="Votre message ici" rows="4" required></textarea>
+                </div>
+
+                <input type="submit" id="submit" value="Envoyer">
+            </form>
+        </div>
+    </section>
+    <div id="ProjectDetail">
+        <div id="inlineProjectDetail">
+            <img id="close" src="Assets/img/Icon/XIcon.svg" alt="Close Button">
+        </div>
+        <div id="textProjectDetail">
+
+        </div>
+    </div>
+</body>
+</html>

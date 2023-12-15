@@ -1,0 +1,20 @@
+<h2 class="projectTextTitle">Learn2Switch</h2>
+
+<p class="ProjectTextParagraph">Learn2Switch est un projet Fiverr pour lequel j'ai joué un rôle clé
+dans la création d'un document de game design pour un jeu éducatif destiné aux lycéens et aux
+étudiants. Le jeu se déroule sur la planète planète Mars et présente un mélange unique d'aventure et
+de puzzle. Mon travail a consisté à concevoir l'histoire, le gameplay et les énigmes, ainsi que la
+proposition de noms pour les différents lieux du jeu.</p>
+
+<p class="ProjectTextParagraph">Ce qui rend Learn2Switch particulièrement intéressant, c'est son
+orientation non violente. Conçu dans une optique l'éducation, le jeu encourage les joueurs à résoudre
+des énigmes, à explorer des environnements martiens captivants et à interagir avec des personnages,
+sans jamais recourir à la violence. Ce projet témoigne de ma capacité à créer des expériences de jeu
+enrichissantes et instructives tout en favorisant un environnement de jeu sûr et stimulant.</p>
+
+<p class="ProjectTextParagraph">En fin de compte, Learn2Switch est bien plus qu'un simple jeu.
+C'est un outil éducatif captivant qui combine le plaisir du jeu vidéo avec l'apprentissage, en
+emmenant les joueurs dans une aventure fascinante sur Mars, tout en renforçant les compétences
+essentielles en matière de résolution de problèmes et de pensée créative.J'ai été ravie de de
+contribuer à ce projet et d'aider à créer une expérience éducative mémorable.</p>
+

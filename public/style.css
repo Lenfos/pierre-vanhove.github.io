@@ -460,7 +460,7 @@ span{
         writing-mode: vertical-rl;
         text-align: center;
         transform: rotateZ(180deg);
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
 
     .skillCardClose img{

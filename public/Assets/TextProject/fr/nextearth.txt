@@ -1,0 +1,22 @@
+<h2 class="projectTextTitle">Next Earth</h2>
+
+<p class="ProjectTextParagraph">En tant que freelance via Fiverr, j'ai eu l'occasion de collaborer au
+projet Next Earth, une initiative visionnaire explorant les frontières de l'innovation. Mon rôle dans
+ce projet était de créer un document de spécifications détaillées pour leur site web et concevoir un
+document de game design pour leur activité phare. Au cœur du projet se trouve une plateforme basée sur
+le Web 3.0, qui intègre des éléments tels que les NFT (Non-Fungible Tokens) et la crypto-monnaie. Son
+concept central est la d'acheter des parcelles virtuelles de terre en utilisant des crypto-monnaies,
+chaque parcelle ayant une valeur unique en fonction de son emplacement géographique.
+</p>
+
+<p class="ProjectTextParagraph">Ce qui distingue Next Earth, c'est la possibilité pour les propriétaires
+de parcelles de personnaliser leurs acquisitions en créant et en gérant des NFT. Cette fonctionnalité
+ouvre la voie à une créativité numérique sans précédent, transformant chaque parcelle en une œuvre
+d'art numérique unique. De plus, le projet a donné naissance à une économie active autour de ces
+parcelles virtuelles, permettant aux utilisateurs d'acheter, de vendre et d'échanger des terrains,
+créant ainsi un marché dynamique.</p>
+
+<p class="ProjectTextParagraph">Next Earth représente une aventure captivante dans le monde du Web 3.0,
+des NFT et des crypto-monnaies, tout en offrant une expérience économique innovante et stimulante.
+Travailler sur ce projet a été pour moi une opportunité exceptionnelle pour moi, et j'ai été ravi de
+contribuer à sa réalisation.</p>

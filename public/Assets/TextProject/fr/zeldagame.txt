@@ -1,0 +1,18 @@
+<h2 class="projectTextTitle">Zelda Game</h2>
+
+<p class="ProjectTextParagraph">Au sein d'un groupe de quatre étudiants, j'ai activement contribué au
+développement d'un jeu en C# inspiré du style du premier jeu Zelda. Cette collaboration s'est déroulée
+dans le cadre de mes études, où nous nous sommes attelés à la création d'un jeu. Mon rôle au sein de
+l'équipe résidait dans la programmation en C#, la conception des fonctionnalités du jeu et la
+coordination avec les membres du groupe afin de garantir une expérience sans faille.</p>
+
+<p class="ProjectTextParagraph">Le jeu que nous avons créé se distingue par son hommage au célèbre
+premier Zelda, avec des éléments d'exploration, de résolution d'énigmes et de combat. En utilisant
+le langage de programmation C# de programmation, j'ai participé à l'implémentation des mécanismes
+de jeu, à la gestion des interactions et à l'équilibrage général afin d'offrir une expérience immersive
+aux joueurs.</p>
+
+<p class="ProjectTextParagraph">Ce projet, développé au sein d'une équipe, représente une étape
+importante dans ma carrière éducative. Il démontre ma capacité à travailler efficacement en groupe,
+à utiliser le langage C# pour créer des fonctionnalités de jeu complexes et à contribuer à la
+réalisation d'un projet concret dans le domaine du développement de jeux vidéo.</p>

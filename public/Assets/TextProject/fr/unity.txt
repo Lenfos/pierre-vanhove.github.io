@@ -1,0 +1,20 @@
+<h2 class="projectTextTitle">Unity</h2>
+
+<p class="ProjectTextParagraph">Mon voyage avec Unity, que j'explore actuellement dans le cadre de
+mon apprentissage, est une plongée passionnante dans le monde de la création de jeux, En tant
+qu'apprenant assidu, je me familiarise avec les aspects fondamentaux d'Unity, pour développer
+mes compétences en matière de conception de jeux. Bien que je ne travaille pas directement sur
+le logiciel lui-même, mes efforts se concentrent sur l'apprentissage et l'application pratique
+des concepts afin de créer un jeu unique.</p>
+
+<p class="ProjectTextParagraph">Le cœur de mon expérience avec Unity réside dans le développement
+d'un jeu en cours, un projet qui prend forme au fur et à mesure que j'apprends. Pour l'instant sans
+nom, ce jeu représente un champ d'expérimentation où j'applique mes nouvelles connaissances. Mon
+exploration d'Unity comprend la création éléments de gameplay, la résolution de problèmes et
+l'optimisation afin d'offrir une expérience immersive aux futurs joueurs.</p>
+
+<p class="ProjectTextParagraph">Mon engagement à apprendre Unity et à développer ce jeu témoigne de
+ma passion pour le design interactif. C'est une étape importante de ma carrière, où chaque ligne de
+code écrite et chaque concept maîtrisé contribuent au développement d'un projet prometteur. Mon
+objectif est de transformer cette phase d'apprentissage en une réalisation concrète, avec
+l'ambition de créer un jeu qui captivera les joueurs tout en mettant en valeur la qualité du jeu.</p>

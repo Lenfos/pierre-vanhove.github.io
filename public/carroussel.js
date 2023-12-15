@@ -41,7 +41,16 @@ $(document).ready(function(){
         $("section").css("filter", "blur(10px)");
         let id = this.getAttribute('id');
         window.ScrollDisabled = true;
-        $("#textProjectDetail").load(`Assets/TextProject/${id}.txt`);
+
+        let path;
+        if (navigator.language === "fr-FR"){
+            path = `Assets/TextProject/fr/${id}.txt`;
+        }
+        else {
+            path = `Assets/TextProject/${id}.txt`;
+        }
+        console.log(navigator.language);
+        $("#textProjectDetail").load(path);
         console.log(`${id}.txt`);
         clearInterval(interval);
     });

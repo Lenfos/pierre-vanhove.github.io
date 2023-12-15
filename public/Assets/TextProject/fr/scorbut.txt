@@ -1,0 +1,20 @@
+<h2 class="projectTextTitle">ScorBUT</h2>
+
+<p class="ProjectTextParagraph">ScorBUT est un projet collaboratif auquel j'ai participé avec trois
+autres étudiants dans le cadre de mes études. Il s'agit d'un site web avec une API développée en C#,
+dont le but est de décerner des trophées à des étudiants dans divers domaines tels que l'éducation,
+le divertissement et bien d'autres encore. Mon rôle dans l'équipe comprenait la conception et
+l'implémentation de la BDD en SQLite, ainsi que la contribution à la vision globale du site.</p>
+
+<p class="ProjectTextParagraph">Ce projet innovant est basé sur la création d'une plateforme
+interactive où les étudiants peuvent être reconnus et récompensés pour leurs réalisations dans
+divers domaines. En utilisant l'API C#, nous avons pu mettre en place un système efficace
+d'attribution de trophées, favorisant un environnement compétitif et stimulant. J'ai également
+participé à la coordination avec les membres de l'équipe pour assurer une intégration harmonieuse
+entre la partie front-end du site et l'API.</p>
+
+<p class="ProjectTextParagraph">ScorBUT témoigne de ma capacité à collaborer dans un environnement
+de développement tout en démontrant ma maîtrise du langage C# pour créer une API fonctionnelle. Ce
+projet représente non seulement une réalisation importante dans le domaine du développement web,
+mais aussi une initiative innovante visant à mettre en valeur les réalisations des étudiants par le
+biais d'une plateforme interactive et attrayante. </p>
