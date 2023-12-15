@@ -665,6 +665,8 @@ label{
         align-items: center;
     }
 
+
+
     #title{
         height: auto;
         align-items: center;
@@ -685,6 +687,17 @@ label{
 
     #name p{
         font-size: 6vw;
+    }
+
+    #switchLanguage{
+        height: 5vh;
+        position: fixed;
+        top: 2%;
+        left: 5%;
+    }
+
+    #switchLanguage a{
+        font-size: 4vw;
     }
 
     nav {
@@ -828,9 +841,14 @@ label{
             border-radius: 20px 0 0 20px;
         }
 
+        .skillCardClose h3{
+            font-size: 4vw;
+        }
+
         .skillCardText{
             border-radius: 0 20px 20px 0;
-            font-size: 2.5vw;
+            font-size: 3vw;
+            line-height: 1.5vh;
             padding: 0 2vw;
         }
     }
